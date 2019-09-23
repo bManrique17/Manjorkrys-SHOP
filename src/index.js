@@ -23,6 +23,6 @@ app.use(require('./routes/index'));
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.listen(3001, ()=>{
-  console.log('Server on port ',3001);
+app.listen(8080, ()=>{
+  console.log('Server on port ',8080);
 });
