@@ -22,9 +22,36 @@
             Buy!
           </button>
         </form>
-
       </div>
     </div>
   </div>
+
+  <div class="col-md-4 mx-auto">
+    <div class="card">
+      <img src="pp.jpg" alt="Piscina 3D" class="card-img-top">
+      <div class="card-body">
+        <h2>50 $</h2>
+        <p> Come on and take a shower :), buy it! </p>
+      </div>
+      <div class="card-footer">
+        <form action="/piscina" method="POST">
+          <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+            data-key="pk_test_kHTyZRrHi6yYjRpyC5DiGiW900sjfPcHIp"
+            data-amount="5000"
+            data-name="Game Store"
+            data-description="Piscina"
+            data-locale="auto">
+          </script>
+          <script type="text/javascript">
+            document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+          </script>
+          <button type="btn btn-dark btn-block">
+            Buy!
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
 
 </div>
